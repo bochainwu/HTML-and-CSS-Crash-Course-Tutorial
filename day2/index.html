@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML forms</title>
+</head>
+<body>
+    <h1>HTML forms</h1>
+    <form>
+        <div>
+            <label for="username">enter username</label>
+            <input type="test" id="username" name="username">
+            <br><br>
+            <label for="email">enter email</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <label for="password">enter password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <form action="">
+                <input type="radio" name="gender" value="male">Male<br>
+                <input type="radio" name="gender" value="Female">Female<br>
+                <input type="radio" name="gender" value="Other">Other<br>
+            </form>
+        </div>
+
+        <br><br>
+
+        <div>
+            <label for="question">Security question:</label>
+            <select name="question" id="question">
+                <option value="q1">what color are your favorite pair of socks</option>
+                <option value="q2">If you could be a vegtable, what it be?</option>
+                <option value="q3">What is your best ever security question</option>
+            </select>
+            
+            <br><br>
+
+            <label for="">Security question answer:</label>
+            <input type="text" id="answer" name="answer">
+        </div>
+
+        <br><br>
+
+        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+    </form>
+</body>
+</html>
