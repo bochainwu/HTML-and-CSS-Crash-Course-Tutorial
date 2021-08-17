@@ -1,0 +1,53 @@
+/*p.error{
+    color:red;
+}
+
+p.success{
+    color: rgb(25, 197, 25)
+}
+p.success.feedback{
+    border: 1px dashed rgb(25, 197, 25)
+}
+#content{
+    background-color: #ebebeb;
+    padding: 20px;
+}
+div .error{
+    color: red;
+}
+
+a[href="https://www.youtube.com/"]{
+    background-color:#3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+*/
+/*
+a[href*=]{
+}
+
+a[href$=]{
+
+}
+
+Inheritance*/
+
+div {
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p {
+    color:orange;
+
+}
