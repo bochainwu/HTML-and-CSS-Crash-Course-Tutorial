@@ -1,0 +1,30 @@
+h1 {
+    color: orange;
+    background-color:slategrey;
+    font-size : 20px;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+}
+p {
+    color:slategrey;
+    text-align: right;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3px;
+    column-gap: 60px;
+}
+
+ul {/*
+    border-width: 4px;
+    border-style: solid;
+    border-color: red;
+    */
+    border-bottom: 4px dotted crimson;
+    border-left: 8px dashed #0098ba;
+}
+
+li {
+    list-style-type: none;
+    text-shadow: 2px 2px lightgray;
+}
