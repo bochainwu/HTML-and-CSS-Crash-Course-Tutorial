@@ -1,0 +1,38 @@
+header{
+    background-color: #F63232;
+    position: fixed;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+.banner {
+    position: relative;
+}
+.banner .welcome{
+    background-color: #FEB614;
+    color: white;
+    position: absolute;  
+    padding: 30px; 
+    left: 0;
+    top: 200px; 
+}
+.banner h2{
+    font-size: 74px;
+}
+.banner h2 span{
+    font-size: 1.3em;
+}
