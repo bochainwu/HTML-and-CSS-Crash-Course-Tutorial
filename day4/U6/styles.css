@@ -3,6 +3,9 @@ body, ul, li, h1, h2, a{
     padding: 0;
     font-family: Arial;
 } 
+p{
+    font-size: 18px;
+}
 header{
     background-color: #F63232;
     position: fixed;
@@ -33,7 +36,7 @@ header h1{
     position: absolute;  
     padding: 30px; 
     left: 0;
-    top: 200px; 
+    top: 30%; 
 }
 .banner h2{
     font-size: 74px;
@@ -47,6 +50,7 @@ nav{
     background-color: #f4f4f4;
     padding: 20px;
     top: 106px;
+    z-index: 1;
 }
 
 nav ul{
@@ -108,7 +112,7 @@ article p{
 .join{
     background-color: #f4f4f4;
     text-align: center;
-    padding: 60px 20px;
+    /*padding: 60px 20px;*/
     color: #4b4b4b;
 }
 
@@ -168,4 +172,59 @@ section.join p::selection{
 
 p::after{
     content: '...';
+}
+@media screen and (max-width: 1400px){
+    .banner .welcome h2{
+        font-size: 60px;
+    }
+
+    nav li{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .banner .welcome h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .banner .welcome{
+        position: relative;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .banner .welcome br{
+        display: none;
+    }
+    .banner .welcome h2{
+        font-size: 25px;
+    }
+   .banner .welcome span{
+       font-size: 1em;
+   }
+   .images li{
+       width: 100%;
+       margin: 20px auto;
+       display: block;
+   }
+}
+
+@media screen and (max-width: 560px){
+    nav li{
+        font-size: 20px;
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 12px 0;
+    }
+    header{
+        position: relative;
+    }
+
+    nav{
+        top: 0;
+    }
 }
